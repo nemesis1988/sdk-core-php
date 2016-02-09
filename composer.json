@@ -2,6 +2,7 @@
     "name": "paypal/sdk-core-php",
     "description": "PayPal Core SDK for PHP",
     "keywords": ["paypal", "php", "sdk"],
+    "version": "3.4.2",
     "type": "library",
     "homepage": "https://github.com/paypal/sdk-core-php",
     "license": "Apache2",
