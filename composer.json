@@ -26,16 +26,6 @@
         "phpunit/phpunit": "3.7.*"
     },
     "autoload": {
-        "psr-0": {
-            "PayPal\\Auth": "lib/",
-            "PayPal\\Common": "lib/",
-            "PayPal\\Core": "lib/",
-            "PayPal\\Exception": "lib/",
-            "PayPal\\Formatter": "lib/",
-            "PayPal\\Handler": "lib/",
-            "PayPal\\IPN": "lib/",
-            "PayPal\\Rest": "lib/",
-            "PayPal\\Transport": "lib/"
-        }
+        "classmap": ["lib"]
     }
 }
