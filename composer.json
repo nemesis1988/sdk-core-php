@@ -2,7 +2,7 @@
     "name": "paypal/sdk-core-php",
     "description": "PayPal Core SDK for PHP",
     "keywords": ["paypal", "php", "sdk"],
-    "version": "3.4.1",
+    "version": "3.4.4",
     "type": "library",
     "homepage": "https://github.com/paypal/sdk-core-php",
     "license": "Apache2",
@@ -10,6 +10,12 @@
         {
             "name": "PayPal",
             "homepage": "https://github.com/paypal/sdk-core-php/contributors"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/nemesis1988/sdk-core-php"
         }
     ],
     "require": {
