@@ -2,7 +2,7 @@
     "name": "paypal/sdk-core-php",
     "description": "PayPal Core SDK for PHP",
     "keywords": ["paypal", "php", "sdk"],
-    "version": "3.4.4",
+    "version": "3.4.5",
     "type": "library",
     "homepage": "https://github.com/paypal/sdk-core-php",
     "license": "Apache2",
@@ -25,7 +25,15 @@
     "require-dev": {
         "phpunit/phpunit": "3.7.*"
     },
-    "autoload": {
-        "classmap": ["lib"]
+    "classmap": {
+        "PayPal\\Auth": "lib/",
+        "PayPal\\Common": "lib/",
+        "PayPal\\Core": "lib/",
+        "PayPal\\Exception": "lib/",
+        "PayPal\\Formatter": "lib/",
+        "PayPal\\Handler": "lib/",
+        "PayPal\\IPN": "lib/",
+        "PayPal\\Rest": "lib/",
+        "PayPal\\Transport": "lib/"
     }
 }
